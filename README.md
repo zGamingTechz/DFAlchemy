@@ -101,5 +101,3 @@ Made with ❤️ by **Bhavya Soni** a.k.a zGamingTechz
 For teachers, students, devs, and data lovers.
 
 ---
-
-```
