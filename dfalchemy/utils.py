@@ -36,3 +36,7 @@ def info(df):
 
     print("👁 Preview")
     print(df.head(5))
+
+
+def drop_empty_cols(df):
+    return df.dropna(axis=1, how='all')
