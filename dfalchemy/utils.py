@@ -40,3 +40,15 @@ def info(df):
 
 def drop_empty_cols(df):
     return df.dropna(axis=1, how='all')
+
+
+def about():
+    print("📦 DFAlchemy")
+    print("——————————————")
+    print("A Python module to easily generate, convert, and manage pandas DataFrames.")
+    print()
+    print("👨‍💻 Created by: Bhavya Soni")
+    print("🔖 Version: 0.1.0")
+    print("🔗 GitHub: https://github.com/zGamingTechz/DFAlchemy")
+    print()
+    print("Designed to help teachers and devs save time and focus on insights, not boilerplate.")
