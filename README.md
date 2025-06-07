@@ -1,4 +1,3 @@
-````markdown
 # 🧪 DFAlchemy
 
 **The Alchemy of DataFrames — For Teachers, Students, and Developers.**  
@@ -44,7 +43,7 @@ A Python library to rapidly create, convert, and manipulate Pandas DataFrames wi
 
 ```bash
 pip install dfalchemy
-````
+```
 
 ---
 
