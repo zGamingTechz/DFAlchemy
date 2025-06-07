@@ -34,12 +34,5 @@ def info(df):
     else:
         print("No numeric columns.\n")
 
-    print("\n🔎 Unique Values (≤10 unique)")
-    for col in df.columns:
-        unique_vals = df[col].nunique()
-        if unique_vals <= 10:
-            print(f"{col} ({unique_vals}): {df[col].unique()}")
-    print()
-
     print("👁 Preview")
     print(df.head(5))
