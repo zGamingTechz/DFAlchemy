@@ -4,7 +4,7 @@ setup(
     name='dfalchemy',
     version='1.0',
     description='Generate, convert and manage DataFrames easily — perfect for devs and teachers.',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     author='Bhavya Soni',
     url='https://github.com/zGamingTechz/DFAlchemy',
